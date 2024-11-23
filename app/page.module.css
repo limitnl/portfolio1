@@ -2,31 +2,52 @@
   font-family: "replica-sans-serif";
   src: url(fonts/Replica-Regular.ttf);
 }
-
 .footer {
   font-family: "replica-sans-serif";
   font-size: 1.25rem;
   letter-spacing: 0.5px;
 }
-
 .ul-footer {
   list-style: none;
   padding: 0;
 }
-
 .li-footer {
-  display: inline;
+  display: flex;
   margin-right: 10px; /* optional, adds some spacing between list items */
 }
 .page {
   color: #241f1c;
-  font-family: "replica-sans-seri";
   -webkit-font-smoothing: antialiased;
   font-size: 1rem;
   word-spacing: .015em;
 }
-
 .a-footer {
-  display: inline;
+  display: flex;
   margin-top: 1rem;
+}
+.linkcard {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 15px;
+  display: flex;
+  color: #fff;
+}
+.sitewrap {
+  max-width: 1250px;
+  margin: 0 auto;
+  width: 100%;
+}
+.gridcontainer {
+  display: grid;
+  grid-template-rows: auto auto;
+  row-gap: 20px;
+}
+.gridcell {
+  width: 100%;
+  padding-inline: 10px;
+}
+.large {
+    max-height: 31.75rem;
+    max-width: 76.5rem;
 }

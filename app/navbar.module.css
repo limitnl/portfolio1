@@ -4,6 +4,8 @@
   }
   .app {
     font-family: 'replica-sans-serif';
+    align-self: center;
+    justify-self: center;
   }
 
   .ul-navbar {
@@ -12,16 +14,14 @@
   
   .a {
     text-decoration: none;
-    color: black;
+    color: #241F1C;
     font-size: 18px;
   }
   
   /* navbar */
   .navbar {
-    background-color: aliceblue;
-    padding: 10px 20px;
+    background: none;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     gap: 40px;
     min-height: 70px;
@@ -30,7 +30,8 @@
   
   /* logo  */
   .logo {
-    font-size: 30px;
+    font-size: 2.125rem;
+    color: #241F1C
   }
   
   
@@ -40,6 +41,8 @@
     justify-content: space-between;
     align-items: center;
     gap: 60px;
+    list-style-type: none;
+    color: #241F1C;
   }
   
   /* media queries */

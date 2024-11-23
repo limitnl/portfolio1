@@ -21,16 +21,10 @@ function Navbar() {
             <a href='#home' className={`${styles.logo} ${styles.a}`}>limitnl </a>
             <ul className={`${styles.navMenu} ${isActive ? styles.active : ''}`}>
               <li onClick={removeActive}>
-                <a href='#home' className={`${styles.navLink}`}>Home</a>
+                <a href='#home' className={`${styles.navLink} ${styles.a}`}>Projecten</a>
               </li>
               <li onClick={removeActive}>
-                <a href='#home' className={`${styles.navLink}`}>Catalog</a>
-              </li>
-              <li onClick={removeActive}>
-                <a href='#home' className={`${styles.navLink}`}>All products</a>
-              </li>
-              <li onClick={removeActive}>
-                <a href='#home' className={`${styles.navLink}`}>Contact</a>
+                <a href='#home' className={`${styles.navLink} ${styles.a}`}>Contact</a>
               </li>
             </ul>
             <div className={`${styles.hamburger} ${isActive ? styles.active : ''}`}  onClick={toggleActiveClass}>
