@@ -1,0 +1,8 @@
+.link-card {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 15px;
+    display: flex;
+    color: #fff;
+  }
